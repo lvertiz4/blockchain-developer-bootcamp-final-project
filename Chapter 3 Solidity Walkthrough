@@ -1,11 +1,36 @@
 Consensys Academy Final Project Nov 2021 Solar Panel Purchase NFT Contract Solidity Walkthrough
 
-Contract State Variables
+Users will have to register themselves (i.e connect their Wallet to the UI)
+
+function registerUser(address _User) {
+
+	// registers user
+
+};
+
+They have select which solar panel equipment they wish to purchase
+
+function registerProductToPurchase(uint _solarPanelOptionID) {
+
+	// registers the ID of the solar panel the user wants to purchase
+  
+  (and the quantity?)
+
+};
 
 
+They will be asked to mint an NFT to confirm their contract to purcahse a solar panel for their home.
 
-Contract Constructor
+function mintPurchaseContract(address _User, uint _solarPanelOptionID ) { 
+	// mints NFT showing user committed to buying solar panel and quantity for their home 
+	_ 
+};
 
-Contract Modifiers (may not be required?)
+If the UI detects that there is insufficient ETH in the user's wallet, a new button/window will appears, directing the user to take out a DeFi loan and come back to try to mint an NFT to buy a solar panel, once they have sufficient funds.
 
-Contract Functions
+function sufficientFunds (uint _solarPanelOptionID) {
+
+	// registers the ID of the solar panel the user wants to purchase
+  
+  (and the quantity?)
+
