@@ -24,7 +24,7 @@ https://final-project-lvertiz.vercel.app
 - Contracts folder: Smart contracts for my NFT minter program that is deployed in the Ropsten testnet
 - Migrations: Migration files for deploying contracts in Contracts directory. 
 	
-- Test: Tests for smart contracts. My testing file is a test written in Javascript, in my attempt to simulate interacting with my deployed contracts from ‘the outside world’ (i.e. via my dapp)
+- Test: Tests for smart contracts. My testing file is a test written in Javascript, in my attempt to simulate interacting with my deployed contracts from ‘the outside world’ (i.e. via my dapp) Run local testnet in the default port 7545 with an Ethereum client, e.g. Ganache
 
 
 ### Frontend
