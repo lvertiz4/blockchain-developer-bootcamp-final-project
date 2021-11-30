@@ -63,4 +63,4 @@ ROPSTEN_MNEMONIC=
 	2) Allow the front end to transfer the NFT to their user’s wallet address
 	3) Allow the contract deployer (i.e me, the contract deployer) to collect the total amount of ETH used to pay for various transactions from various users
 3)  Create a function/React component where, if the user does not have sufficient funds in their wallet to purchase a Solar Panel, they could be lead to a DeFi lender to procure a loan (or even a flash loan, perhaps) to obtain sufficient funding needed to pay for the solar panel purchase transaction.
-![image](https://user-images.githubusercontent.com/69656638/144090678-435808a7-cf3e-4eef-b53f-170eedf35db3.png)
+
